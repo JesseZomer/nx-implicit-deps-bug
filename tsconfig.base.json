@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-implicit-deps-bug/unrelated-libary-1": [
+        "libs/unrelated-libary-1/src/index.ts"
+      ],
+      "@nx-implicit-deps-bug/unrelated-libary-2": [
+        "libs/unrelated-libary-2/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
