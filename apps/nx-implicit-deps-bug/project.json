@@ -5,6 +5,7 @@
   "prefix": "app",
   "sourceRoot": "apps/nx-implicit-deps-bug/src",
   "tags": [],
+  "implicitDependencies": ["!unrelated-libary-1"],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
